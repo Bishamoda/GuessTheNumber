@@ -42,7 +42,6 @@ while (!isWin)
         }
         else
         {
-
             if (userNumber < secretNumber)
             {
                 Console.WriteLine("Ты выбрал слишком маленькое число... Тебя заждался Delphi!\n");
@@ -59,5 +58,4 @@ while (!isWin)
             }
         }
     } while (isNumber);
-
 }
