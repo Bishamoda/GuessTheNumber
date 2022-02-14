@@ -8,7 +8,7 @@ string? name;
 string? inputNumber;
 
 Random randomNumber = new();
-secretNumber = randomNumber.Next(0, 99);
+secretNumber = randomNumber.Next(0, 999);
 
 do
 {
@@ -23,7 +23,7 @@ do
         userNameValidation = true;
         Console.WriteLine($"Я хочу сыграть с тобой в игру, {name}!");
         Console.WriteLine("Ты уже целый год изучаешь С#, но всё еще не постиг всех знаний ООП, паттернов и чистого кода!\n" +
-            "Предлагаю тебе выход! Просто выбери число от 0 до 99.");
+            "Предлагаю тебе выход! Просто выбери число от 0 до 999.");
     }
 } while (!userNameValidation);
 
